@@ -59,7 +59,7 @@ El modelo relacional de Petology en MySQL incluye las siguientes tablas:
 - **Animales para Adopción:**
   - **Campos:** ID, Nombre del Animal, Edad, Fecha de Registro.
 - **Servicios:**
-  - **Campos:** ID, Nombre del Servicio, Descripción, Precio, Fecha de Registro.
+  - **Campos:** id, nombre, descripcion, precio.
 
 Estas tablas están diseñadas para garantizar integridad de datos y normalización adecuada para optimizar el rendimiento.
 
