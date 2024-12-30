@@ -49,5 +49,12 @@ El sistema implementado en **Petology** incluye las siguientes funcionalidades:
   - Publicación de los servicios ofrecidos por Petology.
   - Almacenamiento: Los servicios se gestionan y guardan en una base de datos MySQL para facilitar su actualización y consulta.
 
+---
 
+## Modelo Relacional
+
+
+---
+
+## Resultados y Conclusión
 
