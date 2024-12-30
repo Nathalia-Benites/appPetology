@@ -52,9 +52,30 @@ El sistema implementado en **Petology** incluye las siguientes funcionalidades:
 ---
 
 ## Modelo Relacional
+El modelo relacional de Petology en MySQL incluye las siguientes tablas:
 
+- **Formulario de Contacto:**
+  - **Campos:** ID, Nombre, Teléfono, Correo Electrónico, Mensaje, Fecha de Envío.
+- **Animales para Adopción:**
+  - **Campos:** ID, Nombre del Animal, Edad, Fecha de Registro.
+- **Servicios:**
+  - **Campos:** ID, Nombre del Servicio, Descripción, Precio, Fecha de Registro.
+
+Estas tablas están diseñadas para garantizar integridad de datos y normalización adecuada para optimizar el rendimiento.
+
+---
+
+## Diseño del Sistema
+El sistema utiliza Django como framework y MySQL para la gestión de datos, destacando las siguientes características:
+
+- **Conexión a la Base de Datos:**
+  - La aplicación establece una conexión segura con MySQL al iniciar y la cierra al finalizar.
+- **Páginas Interactivas:**
+  - **"Contáctanos":** Permite registrar comentarios y solicitudes de los usuarios.
+  - **"Adopta Ahora":** Muestra información clara y detallada de animales disponibles para adopción.
+  - **"Servicios":** Publica y actualiza los servicios ofrecidos por Petology.
 
 ---
 
 ## Resultados y Conclusión
-
+Petology brinda una solución efectiva para las clínicas veterinarias al centralizar y optimizar la gestión de información crítica. Sus funcionalidades robustas y diseño intuitivo mejoran la eficiencia operativa y la experiencia del usuario, marcando un avance significativo en la digitalización del sector veterinario.
