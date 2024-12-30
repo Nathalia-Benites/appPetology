@@ -34,3 +34,20 @@ En **Petology**, nos comprometemos a cuidar de las mascotas como si fueran parte
 
 ¡Gracias por confiar en nosotros para el cuidado de tus mascotas, contáctanos! 🐾  
 
+---
+
+# Análisis de Requerimientos 
+El sistema implementado en Petology incluye las siguientes funcionalidades:
+- **Formulario "Contáctanos":**
+o	Campos: Nombre, Teléfono, Correo Electrónico, Mensaje.
+o	Validación: No se permite enviar campos vacíos.
+o	Uso: Recopilar comentarios y solicitudes como adopciones y agendamiento de citas.
+- **Página "Adopta Ahora":**
+o	Visualización de nombres y edades de animales disponibles para adopción.
+o	Almacenamiento: Datos gestionados directamente en la base de datos MySQL.
+- **Página "Servicios":**
+o	Publicación de los servicios ofrecidos por Petology.
+o	Almacenamiento: Los servicios se gestionan y guardan en una base de datos MySQL para facilitar su actualización y consulta.
+
+
+
